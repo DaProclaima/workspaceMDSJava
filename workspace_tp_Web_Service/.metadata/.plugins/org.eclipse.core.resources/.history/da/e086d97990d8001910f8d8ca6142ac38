@@ -1,0 +1,16 @@
+package fr.mds.exo2Project.book;
+
+import fr.mds.exo2Project.author.Author;
+
+public class Book {
+	private String name;
+	private Author author;
+	private double price;
+	private int qtyInStock;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

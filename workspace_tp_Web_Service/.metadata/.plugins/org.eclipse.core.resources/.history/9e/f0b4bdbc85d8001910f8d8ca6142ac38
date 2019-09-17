@@ -1,0 +1,15 @@
+package fr.mds.exo2Project.author;
+
+import jdk.jfr.internal.PrivateAccess;
+
+public class Author {
+
+	public static void author(String[] args) {
+		// TODO Auto-generated method stub
+		
+		private String name;
+		
+		
+	}
+	
+}

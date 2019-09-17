@@ -1,0 +1,12 @@
+package fr.mds.inheritanceDemoProject.model;
+
+public class Catlike {
+	private String name;
+	private String color;
+	private int age;
+	
+	public void eat() {
+		System.out.println("My catlike name");
+	}
+
+}

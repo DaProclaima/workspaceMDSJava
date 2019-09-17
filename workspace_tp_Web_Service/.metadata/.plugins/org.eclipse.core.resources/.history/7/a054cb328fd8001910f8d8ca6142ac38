@@ -1,0 +1,22 @@
+package fr.mds.exo2Project.launcher;
+
+import fr.mds.exo2Project.author.Author;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println("Hello. create new author");
+//		Author author1 = new Author("Sébastien NOBOUR", "sebastien.nobour@gmail.com", 'm');
+//		System.out.println(author1.getEmail());
+//		System.out.println(author1.getGender());
+//		System.out.println(author1.getName());
+//		System.out.println(author1.toString());
+//		System.out.println(author1.toString().equals(String.class));
+
+		Author	anAuthor	=	new	Author(“Tan_Ah_Teck”,	“ahteck@somewhere.com”,	‘m’);
+	}
+	
+	
+
+}

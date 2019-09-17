@@ -1,0 +1,15 @@
+package fr.mds.inheritanceDemoProject.launcher;
+
+import fr.mds.inheritanceDemoProject.model.Catlike;
+
+public class Launcher {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+//		Catlike catlike = new Catlike();
+//		catlike.setName("Bob");
+		Catlike catlike = new Catlike("Bob");
+		catlike.eat();
+		
+		
+	}
+}

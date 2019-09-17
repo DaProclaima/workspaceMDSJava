@@ -1,0 +1,14 @@
+package fr.mds.exo2Project.author;
+
+
+public class Author {
+
+	public static void author(String[] args) {
+		// TODO Auto-generated method stub
+		
+		private String name;
+		
+		
+	}
+	
+}

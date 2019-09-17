@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="fr.mds.inheritanceDemoProject.model.Catlike"/>
+    <fullyQualifiedTypeName name="fr.mds.inheritanceDemoProject.model.Tiger"/>
+    <fullyQualifiedTypeName name="fr.mds.inheritanceDemoProject.model.Cat"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="jdk.jfr.internal.PrivateAccess"/>
+    <fullyQualifiedTypeName name="sun.tools.tree.ThisExpression"/>
+    <fullyQualifiedTypeName name="fr.mds.exo2Project.author.Author"/>
+    <fullyQualifiedTypeName name="fr.mds.exo2Project.book.Book"/>
+</qualifiedTypeNameHistroy>

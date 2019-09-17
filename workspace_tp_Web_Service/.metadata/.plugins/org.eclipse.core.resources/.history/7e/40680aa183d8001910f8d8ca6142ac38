@@ -1,0 +1,8 @@
+package fr.mds.inheritanceDemoProject.model;
+
+public class Cat extends Catlike {
+
+	void canBePet() {
+		System.out.println(super.name + "allows you to be pet whitout eating you up");
+	}
+}

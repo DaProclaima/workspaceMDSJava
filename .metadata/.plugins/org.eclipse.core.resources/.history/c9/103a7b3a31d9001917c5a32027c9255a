@@ -1,0 +1,22 @@
+package fr.mds.supcommerce.dao;
+
+import java.util.ArrayList;
+
+import fr.mds.supcommerce.model.Product;
+
+public class ProductDAO {
+
+	static ArrayList<Product> products = new ArrayList<>();
+	static long idCounter = 0;
+	static void addProduct(Product p) {
+//		add product to DB
+		p.setId(idCounter);
+		idCounter++;
+		products.add(p);
+	}
+	
+	// liste générique: ici dit que ce sera une liste (array) d'objets de class Product. Ne prend qu'un type de class
+	static ArrayList<Product> getAllProducts() {
+		return products;
+	}
+}

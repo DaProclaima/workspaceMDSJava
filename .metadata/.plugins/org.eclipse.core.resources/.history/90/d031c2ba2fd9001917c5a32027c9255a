@@ -1,0 +1,5 @@
+package fr.mds.supcommerce.dao;
+
+public class ProductDAO {
+
+}

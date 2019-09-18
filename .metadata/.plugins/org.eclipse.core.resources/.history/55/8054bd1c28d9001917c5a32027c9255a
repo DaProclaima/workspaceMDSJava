@@ -1,0 +1,10 @@
+package fr.mds.helloworldjee.servlet;
+
+import javax.servlet.http.HttpServlet;
+
+
+@SuppressWarnings("serial") //Cut in several slices bytes the object Description Resource Path Location Type The serializable class HelloServlet does not declare a static final serialVersionUID field of type long	HelloServlet.java	/HelloWorldJEE/src/fr/mds/helloworldjee/servlet	line 6	Java Problem
+
+public class HelloServlet extends HttpServlet{
+
+}

@@ -1,0 +1,5 @@
+package fr.mds.supcommerce.model;
+
+public class Product {
+
+}

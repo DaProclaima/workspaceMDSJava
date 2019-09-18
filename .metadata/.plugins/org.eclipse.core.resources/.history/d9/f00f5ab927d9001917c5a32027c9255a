@@ -1,0 +1,8 @@
+package fr.mds.helloworldjee.servlet;
+
+import javax.servlet.http.HttpServlet;
+
+@SuppressWarnings
+public class HelloServlet extends HttpServlet{
+
+}

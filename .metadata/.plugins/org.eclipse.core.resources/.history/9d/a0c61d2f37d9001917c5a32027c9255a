@@ -1,0 +1,36 @@
+package fr.mds.supcommerce.servlet;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import fr.mds.supcommerce.dao.ProductDAO;
+import fr.mds.supcommerce.model.Product;
+
+@SuppressWarnings("serial")
+public class InsertSomeProductServlet extends HttpServlet{
+
+	static ArrayList<String> reqParams = new ArrayList<>();
+	
+	@Override
+	@SuppressWarnings("unchecked")
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		System.out.println("InsertSomeProductServlet - doGet");
+		reqParams.addAll((Collection<? extends String>) req.getParameterMap());
+		resp.getWriter().println(reqParams);	
+			
+		
+		Product product = new Product();
+//		String product = req.getParameter("product");
+
+//		resp.getWriter().println("Product " + product + "to be pushed in DroductDAO");
+//		ProductDAO productDAO = new ProductDAO();
+//		productDAO.add
+	}
+}

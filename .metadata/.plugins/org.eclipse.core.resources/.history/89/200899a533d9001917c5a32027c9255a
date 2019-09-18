@@ -1,0 +1,5 @@
+package fr.mds.supcommerce.servlet;
+
+public class InsertSomeProductServlet {
+
+}

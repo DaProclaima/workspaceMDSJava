@@ -1,0 +1,11 @@
+package fr.mds.hibernatedemo.servelt;
+
+import javax.servlet.http.HttpServlet;
+
+public class PersistCatServlet extends HttpServlet {
+
+	public PersistCatServlet() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

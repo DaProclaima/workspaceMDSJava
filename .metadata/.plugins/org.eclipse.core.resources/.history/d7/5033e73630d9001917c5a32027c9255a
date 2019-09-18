@@ -1,0 +1,14 @@
+package fr.mds.supcommerce.dao;
+
+import fr.mds.supcommerce.model.Product;
+
+public class ProductDAO {
+
+	static void addProduct(Product p) {
+//		add product to DB
+	}
+	
+	static List<Product> getAllProducts() {
+		return null;
+	}
+}

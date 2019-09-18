@@ -1,0 +1,9 @@
+package fr.mds.hibernatedemo.servelt;
+
+public class PersistCatServlet {
+
+	public PersistCatServlet() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
